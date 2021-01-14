@@ -20,4 +20,11 @@ public class Student implements Comparable<Student> {
         this.studentYears = studentYears;
         }
 
-//thay đổi nhỏ
+//thay đổi nhỏ cho nhánh 2
+//test với nhánh 2
+  public Student(String studentID, int studentYears, float studentAVGMark,
+                   String studentName) {
+        this.studentID = studentID;
+        this.studentYears = studentYears;
+	//thay đổi
+        }
